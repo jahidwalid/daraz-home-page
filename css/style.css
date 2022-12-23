@@ -144,3 +144,36 @@ footer ul{
     border-top: 1px solid white;
     padding: 10px 0px;
 }
+.navbar-brand{
+    display: none;
+}
+@media (max-width:775px){
+    #gategori-section .col{
+        text-align: center;
+    }
+    #gategori-section .col a{
+        display: block;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    #gategori-section .col{
+        background: #ECECEC;
+        border-radius: 5px;
+        margin: 5px 5px;
+        padding: 10px;
+    }
+    .header-logo {
+        text-align: center;
+        margin: auto;
+        display: none;
+    }
+    .navbar-brand{
+        display: block !important;
+    }
+    .header-logo-top{
+        display: block;
+    }
+    .search-p{
+        padding: 10px 0px;
+    }
+}
